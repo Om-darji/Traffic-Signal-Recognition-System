@@ -10,8 +10,8 @@ IMG_HEIGHT = 30
 NUM_CATEGORIES = 43 # Based on the dataset size
 
 # --- INPUT FILES ---
-MODEL_FILENAME = 'traffic_sign_model.h5'  # <-- UPDATE THIS to your saved model file
-IMAGE_TO_PREDICT = 'gtsrb/37/00000_00000.ppm'    # <-- UPDATE THIS to a sample image file
+MODEL_FILENAME = 'model.h5'  # <-- UPDATE THIS to your saved model file
+IMAGE_TO_PREDICT = 'gtsrb/19/00004_00018.ppm'    # <-- UPDATE THIS to a sample image file
 
 def load_and_predict():
     """Loads a saved model, processes a single image, and prints the prediction."""
